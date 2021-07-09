@@ -41,5 +41,7 @@
     android:layout_height="wrap_content"
     android:singleLine="true"
     android:textAppearance="@style/Dialer.Incall.TextAppearance"
-    tools:text="Captain Holt"/>
+    tools:text="Captain Holt"
+    android:layout_gravity="center_horizontal"
+    android:textColor="@color/dndn"/>
 </LinearLayout>

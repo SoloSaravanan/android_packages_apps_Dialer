@@ -45,7 +45,7 @@
         android:layout_gravity="end|bottom"
         android:src="@drawable/quantum_ic_dialpad_white_24"
         android:contentDescription="@string/dialpad_button_content_description"
-        app:backgroundTint="?android:attr/colorAccent"/>
+        app:backgroundTint="@color/goolag_deez_nutz"/>
   </android.support.design.widget.CoordinatorLayout>
 
   <!-- BottomNavBar -->
@@ -60,8 +60,7 @@
   <FrameLayout
       android:id="@+id/dialpad_fragment_container"
       android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:elevation="10dp"/>
+      android:layout_height="match_parent"/>
 
   <!-- MainToolbar -->
   <include
